@@ -19,6 +19,7 @@ public class LogIn {
         this.driver = driver;
     }
 
+
     public void username(String user) {
         driver.findElement(By.xpath("//*[@id=\"user-name\"]")).sendKeys(user);
     }

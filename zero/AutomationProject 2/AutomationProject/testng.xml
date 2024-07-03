@@ -6,7 +6,7 @@
         <parameter name="url" value="https://www.saucedemo.com/" />
         <parameter name="Browser" value="chrome" />
         <classes>
-            <class name="Selenium" />
+            <class name="Data.Selenium" />
         </classes>
     </test>
 
@@ -14,7 +14,7 @@
         <parameter name="url" value="https://www.saucedemo.com/" />
         <parameter name="Browser" value="firefox" />
         <classes>
-            <class name="Selenium" />
+            <class name="Data.Selenium" />
         </classes>
     </test>
 
