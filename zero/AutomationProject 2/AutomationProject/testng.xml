@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MySuite" parallel="tests" >
+
+    <test name="ETests">
+        <parameter name="url" value="https://www.saucedemo.com/" />
+        <parameter name="Browser" value="chrome" />
+        <classes>
+            <class name="Selenium" />
+        </classes>
+    </test>
+
+    <test name="Tests">
+        <parameter name="url" value="https://www.saucedemo.com/" />
+        <parameter name="Browser" value="firefox" />
+        <classes>
+            <class name="Selenium" />
+        </classes>
+    </test>
+
+</suite>
